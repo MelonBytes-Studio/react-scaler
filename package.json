@@ -1,7 +1,7 @@
 {
-  "name": "@rbxts/my-library",
+  "name": "@rbxts/react-scaler",
   "version": "1.0.0",
-  "description": "My description",
+  "description": "Library that helps to scale all guis to any resolution",
   "main": "out/init.luau",
   "type": "module",
   "typings": "out/index.d.ts",
@@ -16,9 +16,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "github repo"
+    "url": "https://github.com/MelonBytes-Studio/react-scaler.git"
   },
-  "homepage": "readme",
+  "homepage": "https://github.com/MelonBytes-Studio/react-scaler#readme",
   "scripts": {
     "build": "rbxtsc",
     "devBuild": "rbxtsc --type game --rojo dev.project.json",
@@ -27,7 +27,7 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": [],
-  "author": "sumer_real",
+  "author": "Leyner & sumer_real",
   "license": "MIT",
   "devDependencies": {
     "@eslint/js": "^9.16.0",
@@ -44,5 +44,9 @@
     "typescript": "^5.3.3",
     "typescript-eslint": "^8.17.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "peerDependencies": {
+	"@rbxts/react": "^17.2.3",
+	"@rbxts/pretty-react-hooks": "^0.6.1"
+  }
 }

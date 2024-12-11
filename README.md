@@ -1,3 +1,5 @@
-# 📚 My library template
+# react-scaler
 
-This library template created for my little libraries!
+Library that helps to scale all guis to any resolution
+
+# Work in progresss
